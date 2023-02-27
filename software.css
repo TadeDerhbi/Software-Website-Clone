@@ -1,0 +1,595 @@
+body{
+    background-color: rgba(239, 239, 239, 255);
+    font-family: "DM Sans", sans-serif;
+}
+#logo{
+    width: 0.5in;
+    margin-left: 50px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(239, 239, 239, 255);
+}
+nav>h4{
+    font-size: 25px;
+    font-weight: bolder;
+}
+#nav-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+#nav-select>ul>li{
+    display: inline-flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+#nav-select>ul>li{
+    padding: 20px;
+    padding-bottom: 0;
+    padding-top: 5px;
+    color: rgb( 89,89,89);
+    padding-top: 20px;
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17.6px;    
+    line-height: 26.4px;
+}
+#icon{
+    margin-top: 10px;
+}
+#icon1{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+#nav-move2{
+    margin-right: 2.5in;
+}
+#nav-move1{
+    margin-left: 2.5in;
+}
+.section-one{
+    margin-top: 80px;
+    background-image: url("developer.jpeg");
+    background-size: 100%;
+    box-shadow: inset 0 0 99999px rgba(0, 0, 0, 1);
+    background-repeat: no-repeat;
+}
+.section-one>h3{
+    padding-top: 2in;
+    color: white;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17.6px;    
+    line-height: 26.4px;
+    padding-left: 1.5in;
+}
+#services-btn:hover{
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+#learn-btn:hover{
+    color: black;
+    background-color:rgba(247, 217, 196, 255) ;
+    border-color:rgba(247, 217, 196, 255) ;
+    ;
+}
+.section-one>h2{
+    font-family: "DM Sans", sans-serif;
+    font-size: 60.8px;
+    font-weight: 700;
+    line-height: 66.88px;
+    padding-left: 1.5in;
+    padding-top: 0;
+    color: white;
+}
+.section-one>h5{
+    font-family: "DM Sans", sans-serif;
+    font-size: 17.6px;
+    font-weight: 500;
+    line-height: 26.4px;
+    color: rgb(187,187,187);
+    padding-left: 1.5in;
+    width: 55%;
+    padding-top: 0.2in;
+    padding-bottom: 0.4in;
+}
+.section-one>div{
+    padding-left: 1.5in;
+}
+#services-btn{
+    padding:13px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-style: solid;
+    background-color:rgba(247, 217, 196, 255) ;
+    margin-right: 10px;
+    border-color: rgba(247, 217, 196, 255);
+    border-radius: 5px;
+}
+#learn-btn{
+    padding:13px 25px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    border-style: solid;
+    border-color: white;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.section-two{
+    padding: 1.5in;
+    padding-top: 1in;
+    background-color: rgba(239, 239, 239, 255);
+}
+#main{
+    display: flex;
+}
+#main-sub{
+    width: 50%;
+}
+#feature1{
+    width: 90%;
+    border-radius: 20px;
+}
+#main-sub>h6{
+    color: rgb(119, 119, 119);
+    padding-top: 0.7in;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17.6px;    
+    line-height: 26.4px;
+}
+#main-sub>h4{
+    color: rgb(119, 119, 119);
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17.6px;    
+    line-height: 26.4px;
+    margin-top: 20px;
+    padding: 10px;
+}
+#main-sub>h1{
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60.8px;    
+    line-height: 66.88px;
+    color: rgb(35, 35, 35);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#icon2{
+    font-size: 40px;
+}
+#icon>a{
+    font-size: 20px;
+    text-decoration: none;
+}
+#icon-sub{
+    display: inline-flex;
+}
+#icon3{
+    font-size: 40px;
+}
+#icon4{
+    font-size: 40px;   
+}
+#icon-sub-one{
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 10px;
+    color: rgb(245, 185, 185);
+}
+#icon-sub-two{
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    color: rgb(245, 185, 185);
+}
+#icon-sub-three{
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    color: rgb(245, 185, 185);
+}
+.section-three{
+    background-color: white;
+    margin: 1.5in;
+    margin-bottom: 1in;
+    margin-top: 0;
+    padding: 70px;
+    padding-bottom: 0;
+    padding-top: 30px;
+    border-radius: 20px;
+}
+#three-div{
+    /* background-color: white; */
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+#features2{
+    width: 70%;
+    margin-top: -80px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: 1.3in;
+}
+#three-div-one>h1{
+    padding-top: 20px;
+    font-family:"DM Sans", sans-serif;
+    font-size: 60.8px;
+    font-size: 700;
+    line-height: 66.88px;
+    color: rgb(20, 25, 30)
+}
+#three-div-one>h5{
+    color: rgb(189, 181, 181);
+    font-size: 16px;
+}
+.section-four{
+    background-color: white;
+    padding: 1.5in;
+    padding-top: 0.7in;
+    padding-bottom: 0.7in;
+}
+.section-four>h4{
+    font-family: "DM Sans", sans-serif;
+    Font-size: 25.6px;
+    font-size: 700;
+    line-height: 38.4px;
+    color: rgb(35, 35, 35)
+}
+.section-four>h5{
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17.6px;    
+    line-height: 26.4px;
+    color: rgb(119, 119, 119);
+}
+.section-four>div>ul>li{
+    list-style-type: none;
+    padding: 15px;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17.6px;    
+    line-height: 26.4px;
+    color: rgb(119, 119, 119);
+}
+.section-four>div{
+    display: flex;
+    justify-content: space-between;
+}
+#check{
+    background-color: rgba(239, 239, 239, 255);
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-right: 0.1in;
+}
+#check1{
+    background-color: rgba(239, 239, 239, 255);
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+    margin-left: -0.5in;
+    margin-right: 0.1in;
+}
+.section-five{
+    margin: 0.6in;
+    margin-bottom: 0;
+}
+.section-five>h2{
+    font-family: "DM Sans", sans-serif;
+    font-size: 60.8px;
+    font-weight: 700;
+    line-height: 66.88px;
+    color: rgb(35, 35, 35);
+    text-align: center;
+    margin: 0.6in;
+}
+#core-features{
+    display: flex;
+    justify-content: space-between;
+    margin: 1in;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.card-img-top{
+    height: 3in;
+}
+#arrow{
+    font-size: 35px;
+    padding: 8px;
+    padding-top: 0;
+    background-color: white;
+    margin-left: 2.3in;
+    margin-top: -0.35in;
+    border-radius: 10px;
+    width: 20%;
+}
+.section-six{
+    background-color: rgba(27, 32, 38, 255);
+    margin-top: 0.5in;
+    padding-bottom: 1in;
+    padding-top: 1in;
+}
+#small-div{
+    width: 70%;
+}
+#small-div>h4{
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17.6px;    
+    line-height: 26.4px;
+    color: rgb(119, 119, 119);
+    padding-bottom: 20px;
+}
+#small-div>h1{
+    font-family: "DM Sans", sans-serif;
+    font-size: 60.8px;
+    font-weight: 700;
+    line-height: 66.88px;
+    color: rgb(27, 32, 38);
+}
+#big-div{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 0.7in;
+    background-color: white;
+    margin-left: 1.5in;
+    margin-right: 1.5in;
+}
+#career-div>ul{
+    list-style-type: none;
+}
+#career-div{
+    width: 50%;
+    margin-top: 0.5in;
+}
+#gear1{
+    font-size: 25px;
+    margin-right: 0.2in;
+    margin-left: 0.1in;
+}
+#car1{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.1ch;
+    border-color: rgb(119, 119, 119);
+    padding: 5px;
+    margin-bottom: 5px;
+}
+#car2{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(119, 119, 119);
+    border-width: 0.1ch;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#car3{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.1ch;
+    border-color: rgb(119, 119, 119);
+    padding: 5px;
+    margin-top: 5px;
+}
+#arrow1{
+    font-size: 25px;
+    margin-left: 1.3in;
+}
+#arrow2{
+    font-size: 25px;
+    margin-left: 1.8in;
+}
+#expert-div{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.5in;
+    margin-right: 1.5in;
+}
+#exp1{
+    margin-right: 10px;
+    width: 20%;
+}
+#exp2{
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 20%;
+}
+#exp3{
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 20%;
+}
+#exp4{
+    margin-left: 10px;
+    width: 20%;
+}
+.section-seven{
+    padding-top: 0.7in;
+    padding-bottom: 1in;
+}
+.section-seven>h5{
+    text-align: center;
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17.6px;    
+    line-height: 26.4px;
+    color: rgb(119, 119, 119);
+    padding-bottom: 10px;
+}
+.section-seven>h1{
+    text-align: center;
+    font-family: "DM Sans", sans-serif;
+    font-size: 60.8px;
+    font-weight: 700;
+    line-height: 66.88px;
+    color: rgb(35, 35, 35);
+    margin-bottom: 0.7in;
+}
+#seven-backgrd{
+    width: 78.5%;
+    margin-left: 1.5in;
+    margin-right: 1.5in;
+    height: 5in;
+    margin-top: 1in;
+    border-radius: 30px;
+}
+#section-seven-overlay{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2.1in;
+    margin-right: 2.5in;
+    padding:20px ;
+    border-radius: 20px;
+    margin-top: -0.5in;
+    position: absolute;
+    width: 70%;
+}
+#section-seven-overlay>ul>li{
+    list-style-type: none;
+}
+#one{
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17.6px;    
+    line-height: 26.4px;
+    color: rgb(119, 119, 119);
+}
+#two{
+    color: rgb(39, 41, 42);
+    font-weight: 500;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17.6px;    
+    line-height: 26.4px;
+    
+}
+#preview-btn{
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px; 
+    width: 15%;
+    height: 0.5in;
+    border-radius: 10px;
+    line-height: 24px;
+    color: white;
+    background-color: rgb(39, 41, 42);
+}
+.section-eight{
+    margin-top: 0.5in;
+    background-color: rgb(35, 35, 35);
+    padding-bottom: 0.7in;
+}
+.section-eight>h5{
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17.6px;    
+    line-height: 26.4px;
+    color: rgb(119, 119, 119);
+    padding-bottom: 10px;
+    margin-left: 1.5in;
+    padding-top: 0.7in;
+    margin-right: 1.5in;
+}
+.section-eight>h1{
+    font-family: "DM Sans", sans-serif;
+    font-size: 60.8px;
+    font-weight: 700;
+    line-height: 66.88px;
+    color: white;
+    margin-bottom: 0.7in;
+    margin-left: 1.5in;
+    margin-right: 1.5in;
+}
+#feedback{
+    margin-left: 1.5in;
+    margin-right: 1.5in;
+    display: flex;
+    justify-content: space-between;
+}
+#feed3{
+    margin-left: 10px;
+}
+#feed2{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#feed1{
+    margin-right: 10px;
+}
+footer{
+    margin-bottom: 0;
+}
+footer>h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-family: calibri;
+    font-size: 15px;
+    padding: 15px 15px;
+}
+.newsletter{
+    margin-left: 1.5in;
+    margin-right: 1.5in;
+    margin-top: 1in;
+    margin-bottom: 30px;
+}
+form{
+    background-color: rgba(220, 232, 235, 255);
+    padding:0.5in;
+    border-radius: 10px;
+}
+.newsletter>form>h5{
+    font-weight: 700;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17.6px;    
+    line-height: 26.4px;
+    color: rgb(119, 119, 119);
+    padding-bottom: 10px;
+}
+.newsletter>form>h2{
+    font-family: "DM Sans", sans-serif;
+    font-size: 49.6px;
+    font-weight: 700;
+    line-height: 54.56px;
+    color: rgb(35,35,35);
+}
+input{
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 0.5in;
+    margin-top: 20px;
+}
+#name{
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+#mail{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+#sub{
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#comp{
+    margin-bottom: 20px;
+}
+#sub-news{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    border-style: none;
+}
